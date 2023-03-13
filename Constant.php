@@ -4,5 +4,5 @@
   define("AGE", 23);
 
   echo NAME."<br>";
-  echo AGE;
+  echo constant("AGE");
  ?>
