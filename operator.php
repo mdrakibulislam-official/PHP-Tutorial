@@ -22,4 +22,6 @@ echo "<br>";
 $mod = $first_number % $second_number;
 echo "The mod = $mod";
 
+$multi = $first_number ** $second_number;
+echo "<br> The multi num multiply = $multi";
 ?>
