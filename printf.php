@@ -15,4 +15,5 @@ $html_block = "<div>
                <h2>%s</h2>
                </div>";
 printf($html_block, ucwords($first_name), ucwords($last_name));
+printf("[%'*10s]",$last_name);
 ?>
